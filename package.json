@@ -1,0 +1,23 @@
+{
+  "name": "ai_image_generator_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@api/leonardoai": "file:.api/apis/leonardoai",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jimp": "^0.22.12",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^3.0.3"
+  }
+}
